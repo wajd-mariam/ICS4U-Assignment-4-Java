@@ -77,7 +77,7 @@ class Main {
         System.out.println(triangleData.triangleTypeSide() + " by side.");
         // Method to determine the type of the triangle by angle:
         System.out.println(triangleData.triangleTypeAngle() + " by angle.");
-        // Method to calculate semi periemeter:
+        // Method to calculate semi perimeter:
         System.out.println("Perimeter = " 
                            + 2 * (triangleData.semiPerimeterCalculation()) + "m");
         // Method to calculate area:
@@ -97,15 +97,15 @@ class Main {
         // Method to calculate the only missing side (sideC): 
         triangleData.getSide3();
         // Methods to determine the two angles (angleA, and angleB):
-        triangleData.angle1Calculator();
-        triangleData.angle2Calculator();
+        triangleData.angle1Calculator()
+        triangleData.angle2Calculator()
         // Method to check if triangle is valid or not:
         System.out.println(triangleData.checkTriangleValidation());
         // Method to determine the type of the triangle by side:
         System.out.println(triangleData.triangleTypeSide() + " by side.");
         // Method to determine the type of the triangle by angle:
         System.out.println(triangleData.triangleTypeAngle() + " by angle.");
-        // Method to calculate semi periemeter:
+        // Method to calculate semi perimeter:
         System.out.println("Perimeter = " 
                            + 2 * (triangleData.semiPerimeterCalculation()) + "m");
         // Method to calculate area:
@@ -123,17 +123,17 @@ class Main {
         triangleData.userInput2Converter();
         triangleData.userInput3Converter();
         // Metho to calculate the only missing angle (angleA):
-        triangleData.angle1Calculator();
+        triangleData.getAngle1();
         // Methods to calculate the 2 missing sides (sideB, and sideC): 
-        triangleData.getSide3();
         triangleData.getSide2();
+        triangleData.getSide3();
         // Method to check if triangle is valid or not:
         System.out.println(triangleData.checkTriangleValidation());  
         // Method to determine the type of the triangle by side:
         System.out.println(triangleData.triangleTypeSide() + " by side.");
         // Method to determine the type of the triangle by angle:
         System.out.println(triangleData.triangleTypeAngle() + " by angle.");
-        // Method to calculate semi periemeter:
+        // Method to calculate semi perimeter:
         System.out.println("Perimeter= " 
                            + 2 * (triangleData.semiPerimeterCalculation()) + "m");
         // Method to calculate area:

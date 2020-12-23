@@ -151,7 +151,7 @@ public class TriangleClass {
     if (this.angleC == 90) {
       this.sideC = Math.sqrt(Math.pow(this.sideA, 2) + (Math.pow(this.sideB, 2)));
     } else {
-      // Use Law of Coisne to solve:
+      // Use Law of Cosines  to solve:
       this.sideC = Math.sqrt((this.sideA * this.sideA) 
                               + (this.sideB * this.sideB)
                               - (2 * this.sideA * this.sideB)
@@ -183,11 +183,11 @@ public class TriangleClass {
   }
   
   /**
-   * Method to determine wheter the triangle is valid or not.
+   * Method to determine whether the triangle is valid or not.
    */
   protected String checkTriangleValidation() {
     String triangleValidity = "";
-    // Checking if triangle is valid using it's side length:
+    // Checking if triangle is valid using its side length:
     if ((this.sideA + this.sideB) < this.sideC
          || (this.sideB + this.sideC) < this.sideA
          || (this.sideA + this.sideC) < this.sideB) {
@@ -209,7 +209,7 @@ public class TriangleClass {
     if (this.sideA == this.sideB 
         && this.sideB == this.sideC
         && this.sideA == this.sideC) {
-      triangleType = "It's an Equilaterial Triangle";
+      triangleType = "It's an Equilateral Triangle";
     } else if (this.sideA == this.sideB 
                || this.sideB == this.sideC
                || this.sideA == this.sideC) {
