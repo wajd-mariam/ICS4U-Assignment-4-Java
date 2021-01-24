@@ -1,6 +1,4 @@
 /*
-* Copyright (c) 2020
-*
 * The TriangleClass.java is a superclass in the Main.java Program that does
 * all the methods and calculations and returns values to the Main.java file.
 * 
