@@ -1,6 +1,4 @@
 /*
-* Copyright (c) 2020
-*
 * The Main.java program lets the user change truck and bike's 
 * information, and take them for a ride.
 * 
